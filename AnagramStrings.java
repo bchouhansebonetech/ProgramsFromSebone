@@ -13,11 +13,12 @@ public class AnagramStrings {
 		System.out.println("Enter the second String:");
 		String str2 = sc.nextLine();
 		
+		AnagramStrings obj = new AnagramStrings();
 		
-		System.out.println(isAnagram(str1, str2));		
+		System.out.println(obj.isAnagram(str1, str2));		
 	}
 	
-	public static boolean isAnagram(String str1, String str2) {
+	boolean isAnagram(String str1, String str2) {
 		if(str1.length() != str2.length())
 			return false;
 		

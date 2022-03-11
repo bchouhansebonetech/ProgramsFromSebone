@@ -6,11 +6,12 @@ public class stringPermutation {
 		
 		System.out.println("Enter a String");
 		String str1 = sc.nextLine();
+		stringPermutation obj = new stringPermutation();
 		
-		getPermutation(str1, "");
+		obj.getPermutation(str1, "");
 	}
 	
-	public static void getPermutation(String str, String per) {
+	void getPermutation(String str, String per) {
 		if(str.length() == 0) {
 			System.out.println(per);
 			return;			

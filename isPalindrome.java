@@ -6,6 +6,14 @@ public class isPalindrome {
 		Scanner sc = new Scanner(System.in);
 		
 		int num = sc.nextInt();
+		
+		isPalindrome obj = new isPalindrome();
+		
+		obj.palindrome(num);
+		
+	}
+	
+	void palindrome(int num) {
 		int a = num;
 		int tmp = 0;
 		

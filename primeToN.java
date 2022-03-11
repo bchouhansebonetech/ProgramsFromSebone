@@ -7,6 +7,12 @@ public class primeToN {
 		
 		int n = sc.nextInt();
 		
+		primeToN obj = new primeToN();
+		
+		obj.primes(n);		
+	}
+	
+	void primes(int n) {
 		int i = 1;
 		int count = 0;
 		
@@ -24,7 +30,6 @@ public class primeToN {
 			}
 			i++;
 		}
-		
 	}
 
 }
